@@ -32,6 +32,7 @@ namespace TestApi.Controllers
 
             item.MeasurementTime = DateTime.Now;
             _temperatureReadingRepository.Add(item);
+            _temperatureReadingRepository.Save();
             return Ok();
         }
     }

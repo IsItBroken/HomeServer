@@ -182,27 +182,6 @@
           "lib/net451/Microsoft.AspNet.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNet.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Cors.dll": {}
-        }
-      },
       "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -515,52 +494,6 @@
           "lib/net451/Microsoft.AspNet.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNet.Localization/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Globalization.CultureInfoCache": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Localization.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.ApiExplorer": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.DataAnnotations": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Formatters.Json": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Localization": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Abstractions/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -577,24 +510,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.ApiExplorer/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Core/6.0.0-rc1-final": {
@@ -621,25 +536,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Core.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Cors.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.DataAnnotations/6.0.0-rc1-final": {
@@ -680,27 +576,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Localization": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Localization.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Razor/6.0.0-rc1-final": {
@@ -1379,21 +1254,6 @@
           "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
-      "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        }
-      },
       "Microsoft.Extensions.Localization/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1949,21 +1809,6 @@
           "lib/dotnet5.4/Microsoft.AspNet.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNet.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Cors.dll": {}
-        }
-      },
       "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2251,45 +2096,6 @@
           "lib/dotnet5.4/Microsoft.AspNet.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNet.Localization/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "Microsoft.Extensions.Globalization.CultureInfoCache": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc1-final",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Globalization": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Localization.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.ApiExplorer": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.DataAnnotations": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Formatters.Json": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Localization": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Abstractions/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2304,18 +2110,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.ApiExplorer/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Core/6.0.0-rc1-final": {
@@ -2336,19 +2130,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Core.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Cors.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.DataAnnotations/6.0.0-rc1-final": {
@@ -2377,21 +2158,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Localization": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Localization.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Razor/6.0.0-rc1-final": {
@@ -2979,21 +2745,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Collections.Concurrent": "4.0.11-beta-23516",
-          "System.Globalization": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
         }
       },
       "Microsoft.Extensions.Localization/1.0.0-rc1-final": {
@@ -4395,27 +4146,6 @@
           "lib/net451/Microsoft.AspNet.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNet.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Cors.dll": {}
-        }
-      },
       "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -4728,52 +4458,6 @@
           "lib/net451/Microsoft.AspNet.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNet.Localization/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Globalization.CultureInfoCache": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Localization.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.ApiExplorer": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.DataAnnotations": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Formatters.Json": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Localization": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Abstractions/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -4790,24 +4474,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.ApiExplorer/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Core/6.0.0-rc1-final": {
@@ -4834,25 +4500,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Core.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Cors.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.DataAnnotations/6.0.0-rc1-final": {
@@ -4893,27 +4540,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Localization": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Localization.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Razor/6.0.0-rc1-final": {
@@ -5595,21 +5221,6 @@
           "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
-      "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        }
-      },
       "Microsoft.Extensions.Localization/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -6206,27 +5817,6 @@
           "lib/net451/Microsoft.AspNet.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNet.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Cors.dll": {}
-        }
-      },
       "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -6539,52 +6129,6 @@
           "lib/net451/Microsoft.AspNet.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNet.Localization/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Globalization.CultureInfoCache": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Localization.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.ApiExplorer": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.DataAnnotations": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Formatters.Json": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Localization": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Abstractions/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -6601,24 +6145,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.ApiExplorer/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Core/6.0.0-rc1-final": {
@@ -6645,25 +6171,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Core.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Cors.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.DataAnnotations/6.0.0-rc1-final": {
@@ -6704,27 +6211,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Localization": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.Localization.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Razor/6.0.0-rc1-final": {
@@ -7406,21 +6892,6 @@
           "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
-      "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        }
-      },
       "Microsoft.Extensions.Localization/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -7976,21 +7447,6 @@
           "lib/dotnet5.4/Microsoft.AspNet.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNet.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Cors.dll": {}
-        }
-      },
       "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -8278,45 +7734,6 @@
           "lib/dotnet5.4/Microsoft.AspNet.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNet.Localization/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "Microsoft.Extensions.Globalization.CultureInfoCache": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc1-final",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Globalization": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Localization.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.ApiExplorer": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.DataAnnotations": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Formatters.Json": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Localization": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Abstractions/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -8331,18 +7748,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.ApiExplorer/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Core/6.0.0-rc1-final": {
@@ -8363,19 +7768,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Core.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Cors.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.DataAnnotations/6.0.0-rc1-final": {
@@ -8404,21 +7796,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Localization": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Localization.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Razor/6.0.0-rc1-final": {
@@ -9009,21 +8386,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Collections.Concurrent": "4.0.11-beta-23516",
-          "System.Globalization": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
         }
       },
       "Microsoft.Extensions.Localization/1.0.0-rc1-final": {
@@ -10911,21 +10273,6 @@
           "lib/dotnet5.4/Microsoft.AspNet.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNet.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Cors.dll": {}
-        }
-      },
       "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -11213,45 +10560,6 @@
           "lib/dotnet5.4/Microsoft.AspNet.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNet.Localization/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "Microsoft.Extensions.Globalization.CultureInfoCache": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc1-final",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Globalization": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Localization.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.ApiExplorer": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.DataAnnotations": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Formatters.Json": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Localization": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.Abstractions/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -11266,18 +10574,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.ApiExplorer/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.ApiExplorer.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Core/6.0.0-rc1-final": {
@@ -11298,19 +10594,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Core.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Cors/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Cors.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.DataAnnotations/6.0.0-rc1-final": {
@@ -11339,21 +10622,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Mvc.Formatters.Json.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Localization": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Localization": "1.0.0-rc1-final"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.Mvc.Localization.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc.Razor/6.0.0-rc1-final": {
@@ -11944,21 +11212,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Collections.Concurrent": "4.0.11-beta-23516",
-          "System.Globalization": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
         }
       },
       "Microsoft.Extensions.Localization/1.0.0-rc1-final": {
@@ -13847,20 +13100,6 @@
         "Microsoft.AspNet.Authorization.nuspec"
       ]
     },
-    "Microsoft.AspNet.Cors/6.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "3wfAJBFtBgtYI03Oo2MHXn1bH4PgRjGjHtZ6onjuT7QevAfAgvxuqEw59r8mhW9rBz3abrgcbBwndEFef0DbCg==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Cors.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Cors.xml",
-        "lib/net451/Microsoft.AspNet.Cors.dll",
-        "lib/net451/Microsoft.AspNet.Cors.xml",
-        "Microsoft.AspNet.Cors.6.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Cors.6.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Cors.nuspec"
-      ]
-    },
     "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -14088,34 +13327,6 @@
         "Microsoft.AspNet.JsonPatch.nuspec"
       ]
     },
-    "Microsoft.AspNet.Localization/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "ImoAQSIWbZifALakJI5kR0l5XOBixrnnR7+7RoNfFQFvPmM6lqJv2mNEYgkpFGea/hVdfHPfsWErb1oVVnYMaw==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Localization.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Localization.xml",
-        "lib/net451/Microsoft.AspNet.Localization.dll",
-        "lib/net451/Microsoft.AspNet.Localization.xml",
-        "Microsoft.AspNet.Localization.1.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Localization.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Localization.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "gKQUI2L58PibL4v/BCsML5RvpcAWQ7gNCn2xQVhLvt2fGDfRAYIr2SnalRJ0M8m+hdHDNtWydfaVrOC799zKtQ==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.xml",
-        "lib/net451/Microsoft.AspNet.Mvc.dll",
-        "lib/net451/Microsoft.AspNet.Mvc.xml",
-        "Microsoft.AspNet.Mvc.6.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Mvc.6.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Mvc.nuspec"
-      ]
-    },
     "Microsoft.AspNet.Mvc.Abstractions/6.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -14130,20 +13341,6 @@
         "Microsoft.AspNet.Mvc.Abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNet.Mvc.ApiExplorer/6.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "cFXQLFGtg8Dv8ngf42zxkqZq9jt0eV73bSFcRlyJENP+M7exk1ebCHjPt5J1wXZQkSsAmzj7JieHBEad5G3TxQ==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.ApiExplorer.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.ApiExplorer.xml",
-        "lib/net451/Microsoft.AspNet.Mvc.ApiExplorer.dll",
-        "lib/net451/Microsoft.AspNet.Mvc.ApiExplorer.xml",
-        "Microsoft.AspNet.Mvc.ApiExplorer.6.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Mvc.ApiExplorer.6.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Mvc.ApiExplorer.nuspec"
-      ]
-    },
     "Microsoft.AspNet.Mvc.Core/6.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -14156,20 +13353,6 @@
         "Microsoft.AspNet.Mvc.Core.6.0.0-rc1-final.nupkg",
         "Microsoft.AspNet.Mvc.Core.6.0.0-rc1-final.nupkg.sha512",
         "Microsoft.AspNet.Mvc.Core.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.Mvc.Cors/6.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "HGAda11lbt59OxaFjYtzy3DOEL6VoOH4vrMJ7dGnSUbrv8hk+lbk5EUebhFxv7KcKPuoka4pdZB3CPH/TTnahg==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.Cors.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.Cors.xml",
-        "lib/net451/Microsoft.AspNet.Mvc.Cors.dll",
-        "lib/net451/Microsoft.AspNet.Mvc.Cors.xml",
-        "Microsoft.AspNet.Mvc.Cors.6.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Mvc.Cors.6.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Mvc.Cors.nuspec"
       ]
     },
     "Microsoft.AspNet.Mvc.DataAnnotations/6.0.0-rc1-final": {
@@ -14198,20 +13381,6 @@
         "Microsoft.AspNet.Mvc.Formatters.Json.6.0.0-rc1-final.nupkg",
         "Microsoft.AspNet.Mvc.Formatters.Json.6.0.0-rc1-final.nupkg.sha512",
         "Microsoft.AspNet.Mvc.Formatters.Json.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.Mvc.Localization/6.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "G5omyQF/PJZmUrhnuaXxvIpfkp8OgU1fwwBZfsnlaaJd7h8gOhkQspdbXQB+UP5lGO1J/ypFUOYuYmVRKmEjyg==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.Localization.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.Localization.xml",
-        "lib/net451/Microsoft.AspNet.Mvc.Localization.dll",
-        "lib/net451/Microsoft.AspNet.Mvc.Localization.xml",
-        "Microsoft.AspNet.Mvc.Localization.6.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Mvc.Localization.6.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Mvc.Localization.nuspec"
       ]
     },
     "Microsoft.AspNet.Mvc.Razor/6.0.0-rc1-final": {
@@ -14834,20 +14003,6 @@
         "Microsoft.Extensions.FileSystemGlobbing.1.0.0-rc1-final.nupkg",
         "Microsoft.Extensions.FileSystemGlobbing.1.0.0-rc1-final.nupkg.sha512",
         "Microsoft.Extensions.FileSystemGlobbing.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "HZggxvkQz5r5Dp36eCdnV8A/fmuhlK2xxmSnUKPES4w3l0C8mzbRLoJlPVdxyd9xy00odSlS5tz8w2IegZcqBQ==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.Extensions.Globalization.CultureInfoCache.dll",
-        "lib/dotnet5.4/Microsoft.Extensions.Globalization.CultureInfoCache.xml",
-        "lib/net451/Microsoft.Extensions.Globalization.CultureInfoCache.dll",
-        "lib/net451/Microsoft.Extensions.Globalization.CultureInfoCache.xml",
-        "Microsoft.Extensions.Globalization.CultureInfoCache.1.0.0-rc1-final.nupkg",
-        "Microsoft.Extensions.Globalization.CultureInfoCache.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.Extensions.Globalization.CultureInfoCache.nuspec"
       ]
     },
     "Microsoft.Extensions.Localization/1.0.0-rc1-final": {
@@ -19172,7 +18327,7 @@
       "Microsoft.AspNet.Server.Kestrel >= 1.0.0-rc1-final",
       "EntityFramework.Commands >= 7.0.0-rc1-final",
       "EntityFramework.MicrosoftSqlServer >= 7.0.0-rc1-final",
-      "Microsoft.AspNet.Mvc >= 6.0.0-rc1-final",
+      "Microsoft.AspNet.Mvc.Core >= 6.0.0-rc1-final",
       "Microsoft.AspNet.Mvc.TagHelpers >= 6.0.0-rc1-final",
       "Microsoft.AspNet.Razor >= 4.0.0-rc1-final",
       "Microsoft.AspNet.Tooling.Razor >= 1.0.0-rc1-final",

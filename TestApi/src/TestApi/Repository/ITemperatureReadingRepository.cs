@@ -10,5 +10,7 @@ namespace TestApi.Repository
         TemperatureReading Find(int id);
         void Remove(int id);
         void Update(TemperatureReading item);
+
+        void Save();
     }
 }

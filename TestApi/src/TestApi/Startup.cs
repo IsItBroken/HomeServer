@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Builder;
+﻿using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
-using Microsoft.AspNet.Http;
 using Microsoft.Data.Entity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using TestApi.Models;
 using TestApi.Repository;
@@ -34,8 +28,8 @@ namespace TestApi
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc()
-                .AddJsonOptions(a => a.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
+            services.AddMvcCore()
+                .AddJsonFormatters(a => a.ContractResolver = new CamelCasePropertyNamesContractResolver());
 
             services.AddEntityFramework()
                 .AddSqlServer()
@@ -50,12 +44,16 @@ namespace TestApi
         {
             app.UseIISPlatformHandler();
             app.UseStaticFiles();
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            app.UseMvc();
+            //routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "api",
+            //        template: "api/{controller}/{action}/{id?}");
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}");
+            //}
         }
 
         // Entry point for the application.
